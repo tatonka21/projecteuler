@@ -16,7 +16,7 @@ def alphabetical_value(name):
     Returns the alphabetical value of a name as described in the
     problem statement. 
     """
-    return sum([ord(c) - 64 for c in list(str(name))])
+    return sum(ord(c) - 64 for c in list(str(name)))
 
 
 if __name__ == "__main__":

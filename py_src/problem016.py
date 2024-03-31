@@ -17,7 +17,7 @@ def digit_sum(n):
     """
     Returns the sum of the digits of n in base 10
     """
-    return sum([int(d) for d in str(n)])
+    return sum(int(d) for d in str(n))
 
 
 if __name__ == "__main__":
